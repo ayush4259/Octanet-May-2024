@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do Lists</h1>
+        <div class="checklists">
+            <!-- Generate 10 checklists -->
+            <div class="checklist" id="checklist-1">
+                <h2>List 1</h2>
+                <div class="input-container">
+                    <input type="text" id="new-task-1" placeholder="Add a new task...">
+                    <button onclick="addTask(1)">Add Task</button>
+                </div>
+                <ul id="task-list-1"></ul>
+            </div>
+            <div class="checklist" id="checklist-2">
+                <h2>List 2</h2>
+                <div class="input-container">
+                    <input type="text" id="new-task-2" placeholder="Add a new task...">
+                    <button onclick="addTask(2)">Add Task</button>
+                </div>
+                <ul id="task-list-2"></ul>
+            </div>
+            <div class="checklist" id="checklist-3">
+                <h2>List 3</h2>
+                <div class="input-container">
+                    <input type="text" id="new-task-3" placeholder="Add a new task...">
+                    <button onclick="addTask(3)">Add Task</button>
+                </div>
+                <ul id="task-list-3"></ul>
+            </div>
+            <div class="checklist" id="checklist-4">
+                <h2>List 4</h2>
+                <div class="input-container">
+                    <input type="text" id="new-task-4" placeholder="Add a new task...">
+                    <button onclick="addTask(4)">Add Task</button>
+                </div>
+                <ul id="task-list-4"></ul>
+            </div>
+            <div class="checklist" id="checklist-5">
+                <h2>List 5</h2>
+                <div class="input-container">
+                    <input type="text" id="new-task-5" placeholder="Add a new task...">
+                    <button onclick="addTask(5)">Add Task</button>
+                </div>
+                <ul id="task-list-5"></ul>
+            </div>
+            <ul id="task-list-10"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
